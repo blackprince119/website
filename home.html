@@ -4,38 +4,61 @@
 
 <head>
     <style>
-        img{
-            width:100px;
-            height:100px;
+        img {
+            width: 100px;
+            height: 100px;
+            border: groove;
+            border-width: 10px;
+            border-color:#48b764
+        }
+        #logo{
+            font-size:75px;
+            font-family:serif;
+            color:green;
+        }
+        th{
+            font-size: 60px;
+            font-family: serif;
+            color: green;
+        }
+        .name{
+            font-family:fantasy;
+            font-size: 30px
         }
     </style>
 </head>
 
-<body>
+<body style="background-color:#a8df96">
+    <h1 id="logo">Easy Eats</h1>
 <table border="1">
     <tr>
         <th>Resaurant</th>
         <th>Logo</th>
-        <th>Top pick currently</th>
+        <th>Order</th>
     </tr>
     <tr>
-        <td>In-N-Out</td>
+        <td class="name">In-N-Out</td>
         <td><img src="imgs\In-n-out.jpg" /></td>
-        <td></td>
+        <td><a href="In-n-out_page.htm">Place order</a></td>
     </tr>
     <tr>
-        <td>Mcdonald's</td>
+        <td class="name">Mcdonald's</td>
         <td><img src="imgs\Mcdonalds.jpg" /></td>
         <td></td>
     </tr>
     <tr>
-        <td>Burger King</td>
+        <td class="name">Burger King</td>
         <td><img src="imgs\BurgerKing.jpg" /></td>
         <td></td>
     </tr>
     <tr>
-        <td>Wendy's</td>
+        <td class="name">Wendy's</td>
         <td><img src="imgs\Wendys.jpg"</td>
+        <td><a href="Wendys.htm">Place order</a></td>
+    </tr>
+    <tr>
+        <td class="name">Dairy Queen</td>
+        <td><img src="imgs\DQ.jpg"</td>
         <td></td>
     </tr>
 </table>
